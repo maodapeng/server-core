@@ -1,6 +1,6 @@
 # logrus
 
-[logrus](https://github.com/sirupsen/logrus) logger implementation for __go-admin__ [meta logger](https://github.com/maodapeng/server-core/tree/master/logger).
+[logrus](https://github.com/sirupsen/logrus) logger implementation for __server-core__ [meta logger](https://github.com/maodapeng/server-core/tree/master/logger).
 
 ## Usage
 
