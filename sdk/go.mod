@@ -9,8 +9,6 @@ require (
 	github.com/chanxuehong/wechat v0.0.0-20201110083048-0180211b69fd
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.7.3
-	github.com/maodapeng/server-core v1.0.2
-	github.com/maodapeng/server-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d
 	github.com/go-admin-team/gorm-adapter/v3 v3.2.1-0.20210902112335-4148cb356a24
 	github.com/go-playground/locales v0.13.0
 	github.com/go-playground/universal-translator v0.17.0
@@ -18,6 +16,8 @@ require (
 	github.com/go-redis/redis/v7 v7.4.0
 	github.com/google/uuid v1.1.2
 	github.com/gorilla/websocket v1.4.2
+	github.com/maodapeng/server-core v1.0.2
+	github.com/maodapeng/server-core/plugins/logger/zap v0.0.0-00010101000000-000000000000
 	github.com/mojocn/base64Captcha v1.3.1
 	github.com/nsqio/go-nsq v1.0.8
 	github.com/robfig/cron/v3 v3.0.1
