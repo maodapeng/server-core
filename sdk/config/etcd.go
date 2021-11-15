@@ -1,16 +1,16 @@
 package config
 
 type Etcd struct {
-	addrs     []string
-	tls       bool
-	connnum   int
-	connreuse int
-	filecert  string
-	filekey   string
-	fileca    string
-	leaseTime int
-	timeout   int
-	prefix    string
+	Addrs     []string
+	Tls       bool
+	Connnum   int
+	Connreuse int
+	FileCert  string
+	FileKey   string
+	FileCa    string
+	LeaseTime int
+	Timeout   int
+	Prefix    string
 }
 
 var EtcdConfig = new(Etcd)
