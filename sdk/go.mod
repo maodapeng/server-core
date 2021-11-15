@@ -6,6 +6,7 @@ replace (
 	github.com/maodapeng/server-core => ../
 	github.com/maodapeng/server-core/plugins/logger/zap => ../plugins/logger/zap
 )
+
 require (
 	github.com/bsm/redislock v0.5.0
 	github.com/bytedance/go-tagexpr/v2 v2.8.1
