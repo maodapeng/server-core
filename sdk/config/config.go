@@ -47,6 +47,7 @@ type Config struct {
 	Ssl         *Ssl                  `yaml:"ssl"`
 	Logger      *Logger               `yaml:"logger"`
 	Jwt         *Jwt                  `yaml:"jwt"`
+	Etcd        *Etcd                 `yaml:"etcd"`
 	Database    *Database             `yaml:"database"`
 	Databases   *map[string]*Database `yaml:"databases"`
 	Gen         *Gen                  `yaml:"gen"`
@@ -75,6 +76,7 @@ func Setup(s source.Source,
 			Ssl:         SslConfig,
 			Logger:      LoggerConfig,
 			Jwt:         JwtConfig,
+			Etcd:        EtcdConfig,
 			Database:    DatabaseConfig,
 			Databases:   &DatabasesConfig,
 			Gen:         GenConfig,
