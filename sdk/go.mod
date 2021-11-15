@@ -20,7 +20,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/websocket v1.4.2
 	github.com/maodapeng/gorm-adapter v0.0.0-20211115023527-9ad32b048ffd
-	github.com/maodapeng/server-core v1.5.1
+	github.com/maodapeng/server-core v1.5.7
 	github.com/maodapeng/server-core/plugins/logger/zap v0.0.0-20211115025535-584adea16f61
 	github.com/mojocn/base64Captcha v1.3.1
 	github.com/nsqio/go-nsq v1.1.0
