@@ -1,11 +1,11 @@
 package api
 
 import (
-	"fmt"
-	"github.com/gin-gonic/gin/binding"
 	"reflect"
 	"strings"
 	"sync"
+
+	"github.com/gin-gonic/gin/binding"
 )
 
 const (
@@ -49,7 +49,7 @@ func (e *bindConstructor) GetBindingForGin(d interface{}) []binding.Binding {
 		}
 	}
 	for e := range mp {
-		gbs=append(gbs, mp[e])
+		gbs = append(gbs, mp[e])
 	}
 	return gbs
 }
@@ -59,7 +59,7 @@ func (e *bindConstructor) resolve(d interface{}) []uint8 {
 	qType := reflect.TypeOf(d).Elem()
 	var tag reflect.StructTag
 	var ok bool
-	fmt.Println(qType.Kind())
+	//fmt.Println(qType.Kind())
 	for i := 0; i < qType.NumField(); i++ {
 		tag = qType.Field(i).Tag
 		if _, ok = tag.Lookup("json"); ok {

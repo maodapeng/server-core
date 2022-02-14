@@ -16,7 +16,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/imdario/mergo v0.3.12
 	github.com/json-iterator/go v1.1.12
-	github.com/maodapeng/server-core/sdk v1.5.9
+	github.com/maodapeng/server-core/sdk v1.5.12
 	github.com/nsqio/go-nsq v1.1.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.0
@@ -33,4 +33,6 @@ require (
 	gorm.io/plugin/dbresolver v1.1.0
 )
 
-replace github.com/bsm/redislock => github.com/bsm/redislock v0.5.0
+replace (
+	github.com/bsm/redislock => github.com/bsm/redislock v0.5.0
+)
